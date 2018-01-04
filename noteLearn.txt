@@ -1,0 +1,13 @@
+create-react-native-app [nameProject]  
+
+-> yarn
+npm install yarn -g
+
+-> eslint
+npm install eslint -g
+
+cài app
+react-native init [name]
+
+npm install -g react-native-cli
+
