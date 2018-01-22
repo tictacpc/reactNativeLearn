@@ -1,4 +1,6 @@
-create-react-native-app [nameProject]  
+-> new project
+1. react-native init SimpleApp
+2. create-react-native-app [nameProject]  
 
 -> yarn
 npm install yarn -g
@@ -10,4 +12,36 @@ cài app
 react-native init [name]
 
 npm install -g react-native-cli
+yarn add global react-native-cli
+
+//-- navigation
+react-native install react-navigation
+
+//-- react-native run-android
+
+
+//-- button
+npm install react-native-button --save
+
+//-- 
+https://stackoverflow.com/questions/35674066/errorexecution-failed-for-task-appprocessdebugresources-java-io-ioexcept
+From your react native folder run:
+
+cd android && gradlew clean
+THEN
+cd .. && react-native run-android
+Notes:
+For mac you may need to change gradlew to ./gradlew
+For the command prompt you may need to change the && to &
+
+
+//-- library
+import swipeout from 'react-native-swipeout'
+-> yarn add react-native-swipeout
+
+import Modal from 'react-native-modalbox';
+-> yarn add react-native-modalbox
+
+//-- random string
+yarn add random-string
 
